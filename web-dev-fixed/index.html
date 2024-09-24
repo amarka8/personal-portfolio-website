@@ -1,41 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
-  
-  <head>
-    <title>Personal Website Project</title>
-    <link rel ="stylesheet" href = "styles/style.css">
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amar Kanakamedala - Personal Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="name">Amar Kanakamedala</h1>
+            <div class="social-links">
+                <a href="https://github.com/amarka8" target="_blank" class="button">GitHub</a>
+                <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" class="button">LinkedIn</a>
+            </div>
+        </header>
 
-  <body>
-    <p class = 'name'>
-      Amar Kanakamedala
-    </p>
+        <main>
+            <section>
+                <h2 class="sub-heading">About</h2>
+                <img src="images/profile-photo.jpeg" alt="Amar Kanakamedala" class="profile-photo"/>
+                <p class="bio">
+                    Welcome to my Personal Site and thanks for visiting! I am an undergraduate at Rice University interested 
+                    in applying Machine Learning Algorithms to real world problems. In the past, 
+                    I analyzed mortgage denial rates using Python Data Science Libraries under Dr. Padmanabhan Seshaiyer at George Mason University. 
+                    I am currently working with Dr. Lulu Shang at the MD Anderson Cancer Center as a Biostatistics Researcher. You can check out my projects on my GitHub and LinkedIn!
+                </p>
+            </section>
 
-    <a href="https://github.com/amarka8" target = "_blank" class = 'button'>Github</a>
-
-    <p class = 'sub-heading'>
-      About
-    </p>
-
-    <img src="images/profile-photo.jpeg" alt="Amar Kanakamedala" width = "200" height = "200"/>
-
-    <p class = 'bio'> 
-      Welcome to my Personal Site and thanks for visiting! I am an undergraduate at Rice University interested 
-      in applying Machine Learning Algorithms to real world problems. In the past, 
-      I analyzed mortage denial rates using Python Data Science Libraries under Dr. Padmanabhan Seshaiyer at George Mason University. 
-      I am currently working with Dr. Lulu Shang at the MD Anderson Cancer Center as a Biostatistics Researcher.
-    </p>
-
-    <p class = 'sub-heading'>
-      Interests
-    </p>
-
-    <p>
-      I am fascinated by the effects of algorithmic bias on those seeking out loans for things 
-      like homebuying and car purchasing. As of late, I have been exploring spatial 
-      transcriptomic and scRNAseq data and their potential to help plan cancer treatment. 
-    </p>
-
-
-  </body>
+            <section>
+                <h2 class="sub-heading">Interests</h2>
+                <p>
+                    I am fascinated by the effects of algorithmic bias on those seeking out loans for things 
+                    like homebuying and car purchasing. As of late, I have been exploring spatial 
+                    transcriptomic and scRNAseq data and their potential to help plan cancer treatment. 
+                </p>
+            </section>
+        </main>
+    </div>
+</body>
 </html>
